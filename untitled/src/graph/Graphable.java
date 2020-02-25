@@ -1,32 +1,32 @@
 package graph;
 
+import graph.node.Node;
+
 import java.util.ArrayList;
 
 /**
  * @author T.Whiter
- * @Date 2020/2/17 14:11
+ * @Date 2020/2/19 13:37
  * @Version 1.0
  */
-public interface Graphable<E> {
-
-    public static final int INF = 1 << 10;
+public interface Graphable {
+    public static final double INF = 1 << 20;
 
     /***
      *
      * @return array which contains dfs sequence of graph
      */
-    public ArrayList<Vertex<E>> dfs();
+    public ArrayList<Node> dfs();
 
     /***
      *
      * @return list which contains bfs sequence of graph
      */
-    public ArrayList<Vertex<E>> bfs();
+    public ArrayList<Node> bfs();
 
     /***
      *
      * @return the num of vertex in total
      */
     public int getVertexNum();
-
 }

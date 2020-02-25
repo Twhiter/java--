@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a533f782-032e-41fd-bd7f-6fbf220963f5" name="Default Changelist" comment="" />
+    <list default="true" id="a533f782-032e-41fd-bd7f-6fbf220963f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forTest/Testdemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Testdemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/exception/NoElementException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/exception/NoEnoughSizeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/AdjacencyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/AdjacencyMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/BitTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/GraphVertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/Graphable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/graph/Graphable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/TreeVertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/graph/Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/test.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testdemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/NoElementException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/NoEnoughSizeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/AdjacencyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/AdjacencyMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/BitTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/GraphVertex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Graphable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/TreeVertex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Vertex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.fxml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,23 +55,34 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JavaFXApplication" />
-        <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="package-info" />
         <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XuimDL98mITIihvvj8ML9TB7Ib" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PATH_TO_FX$/src.zip!/" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../18204109" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -40,8 +92,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\java课设\untitled\src\css" />
+      <recent name="C:\Users\Dell\Desktop\java课设\untitled\src\fxml" />
       <recent name="C:\Users\Dell\Desktop\java课设\untitled\src" />
-      <recent name="C:\Users\Dell\Desktop\java课设\untitled\src\res" />
+      <recent name="C:\Users\Dell\Desktop\java课设\untitled\src\sample" />
+      <recent name="C:\Users\Dell\Desktop\java课设\untitled" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -56,7 +111,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Testdemo">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forTest.Graphsample.Main" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forTest.Graphsample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="untitled" />
@@ -65,21 +133,151 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacksample.Main" />
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stacksample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacksample.Main" />
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stacksample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testdemo" />
+      <option name="MAIN_CLASS_NAME" value="forTest.Testdemo" />
       <module name="untitled" />
       <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UIBitTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="refactor.UIBitTree" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="refactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Testdemo" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.UIBitTree" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.UIBitTree" />
         <item itemvalue="Application.Testdemo" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -96,22 +294,42 @@
       <updated>1581902536867</updated>
       <workItem from="1581902539601" duration="34288000" />
       <workItem from="1581984454966" duration="33057000" />
-      <workItem from="1582042847570" duration="15464000" />
+      <workItem from="1582042847570" duration="35597000" />
+      <workItem from="1582157127302" duration="27079000" />
+      <workItem from="1582189682309" duration="4555000" />
+      <workItem from="1582243417586" duration="32650000" />
+      <workItem from="1582288728651" duration="3000" />
+      <workItem from="1582332491613" duration="21540000" />
+      <workItem from="1582418944891" duration="20827000" />
+      <workItem from="1582502690374" duration="17466000" />
+      <workItem from="1582538078124" duration="2049000" />
+      <workItem from="1582596236688" duration="13258000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/AdjacencyMatrix.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="nodes.get(i)" />
+        <watch expression="nodes.get(j)" />
+        <watch expression="nodes.get(j + 1)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

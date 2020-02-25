@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="625.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GraphController">
+   <children>
+      <TableView fx:id="inputTable" layoutX="37.0" layoutY="104.0" prefHeight="394.0" prefWidth="278.0">
+        <columns>
+          <TableColumn fx:id="from" prefWidth="85.0" text="from" />
+          <TableColumn fx:id="to" prefWidth="90.0" text="to" />
+            <TableColumn fx:id="weight" prefWidth="82.0" text="weight" />
+        </columns>
+      </TableView>
+      <VBox layoutX="315.0" layoutY="104.0" prefHeight="394.0" prefWidth="34.0">
+         <children>
+            <Button fx:id="add" mnemonicParsing="false" onMouseClicked="#add" prefHeight="30.0" prefWidth="41.0" text="+" />
+            <Button fx:id="delete" mnemonicParsing="false" onMouseClicked="#delete" prefHeight="30.0" prefWidth="48.0" text="-" />
+         </children>
+      </VBox>
+      <TableView fx:id="outputTable" layoutX="355.0" layoutY="104.0" prefHeight="394.0" prefWidth="278.0">
+         <columns>
+            <TableColumn fx:id="spFrom" prefWidth="85.0" text="from" />
+            <TableColumn fx:id="spTo" prefWidth="90.0" text="to" />
+            <TableColumn fx:id="sp" prefWidth="82.0" text="SP" />
+         </columns>
+      </TableView>
+      <Button fx:id="done" layoutX="256.0" layoutY="498.0" mnemonicParsing="false" onMouseClicked="#done" text="Done" />
+   </children>
+</AnchorPane>

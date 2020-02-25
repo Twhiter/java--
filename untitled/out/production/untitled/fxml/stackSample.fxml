@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="503.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StackController">
+   <children>
+      <Button fx:id="push" layoutX="100.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#push" prefHeight="67.0" prefWidth="133.0" text="push" />
+      <TextField id="input" fx:id="input" layoutX="100.0" layoutY="97.0" prefHeight="50.0" prefWidth="175.0" promptText="在此处输入要入栈的值" />
+      <Button fx:id="pop" layoutX="100.0" layoutY="241.0" mnemonicParsing="false" onMouseClicked="#pop" prefHeight="74.0" prefWidth="133.0" text="pop" />
+      <ScrollPane fx:id="scrollPane" layoutX="319.0" layoutY="2.0" prefHeight="503.0" prefWidth="221.0">
+         <content>
+            <VBox fx:id="vBox" maxHeight="626.0" prefHeight="504.0" prefWidth="208.0" spacing="10.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

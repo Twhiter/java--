@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -9,16 +10,11 @@
 
 <AnchorPane prefHeight="504.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BitTreeController">
    <children>
-      <ListView fx:id="input" layoutX="40.0" layoutY="53.0" prefHeight="340.0" prefWidth="220.0" />
-      <ListView fx:id="output" layoutX="335.0" layoutY="53.0" prefHeight="340.0" prefWidth="200.0" />
-      <Button fx:id="add" layoutX="257.0" layoutY="53.0" mnemonicParsing="false" onMouseClicked="#add" prefHeight="36.0" prefWidth="34.0" text="+" />
-      <Button fx:id="delete" layoutX="257.0" layoutY="89.0" mnemonicParsing="false" onMouseClicked="#delete" prefHeight="36.0" prefWidth="34.0" text="-" />
-      <Button fx:id="done" layoutX="204.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#done" prefHeight="30.0" prefWidth="58.0" text="done" />
-      <Label layoutX="33.0" layoutY="14.0" prefHeight="36.0" prefWidth="265.0" text="输入二叉树层次遍历序列,#表示空">
-         <font>
-            <Font size="17.0" />
-         </font>
-      </Label>
+      <ListView fx:id="input" layoutX="40.0" layoutY="53.0" opacity="0.8" prefHeight="340.0" prefWidth="220.0" />
+      <ListView fx:id="output" layoutX="335.0" layoutY="53.0" opacity="0.8" prefHeight="340.0" prefWidth="200.0" />
+      <Button fx:id="add" layoutX="257.0" layoutY="53.0" mnemonicParsing="false" onMouseClicked="#add" opacity="0.8" prefHeight="36.0" prefWidth="34.0" text="+" />
+      <Button fx:id="delete" layoutX="257.0" layoutY="89.0" mnemonicParsing="false" onMouseClicked="#delete" opacity="0.8" prefHeight="36.0" prefWidth="34.0" text="-" />
+      <Button fx:id="done" layoutX="204.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#done" opacity="0.8" prefHeight="30.0" prefWidth="58.0" text="done" />
       <Label layoutX="335.0" layoutY="23.0" prefHeight="30.0" prefWidth="200.0" text="二叉树dfs序列">
          <font>
             <Font size="25.0" />

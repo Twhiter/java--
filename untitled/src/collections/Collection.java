@@ -8,7 +8,7 @@ package collections;
 public interface Collection<E> extends Iterable<E> {
     /***
      *
-     * @return return the "last" element
+     * @return
      */
     public E get();
 

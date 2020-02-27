@@ -15,6 +15,7 @@ import javafx.util.StringConverter;
 import org.jetbrains.annotations.NotNull;
 import refactor.UIEdge;
 
+
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintStream;
@@ -53,6 +54,8 @@ public class GraphController implements Controller {
     private ObservableList<UIEdge> list;
 
     private ObservableList<UIEdge> spList;
+
+
 
 
 
@@ -141,7 +144,7 @@ public class GraphController implements Controller {
     }
 
     @Override
-    public void write(File file) {
+    public void write(@NotNull File file) {
         try {
             PrintStream printStream = new PrintStream(file,StandardCharsets.UTF_8);
             System.setOut(printStream);
@@ -169,8 +172,10 @@ public class GraphController implements Controller {
         spList.clear();
 
         ArrayList<GenerifiedEdge<String>> edges = new ArrayList<>();
-        for (var uiEdge : list)
+        for (var uiEdge : list) {
+            if (uiEdge.getFrom().getValue() != null && uiEdge.getTo().getValue() != null)
             edges.add(uiEdge.toGenerifiedEdge());
+        }
 
         GenerifiedGraph<String> graph = new GenerifiedGraph<>(edges);
 

@@ -9,20 +9,20 @@
 
 <AnchorPane fx:id="anchorPane" prefHeight="625.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.QueueController">
    <children>
-      <Button fx:id="push" layoutX="118.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#push" prefHeight="64.0" prefWidth="116.0" text="push">
+      <Button fx:id="push" layoutX="118.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#push" opacity="0.8" prefHeight="64.0" prefWidth="116.0" text="push">
          <font>
             <Font size="30.0" />
          </font>
       </Button>
       <TextField fx:id="input" layoutX="103.0" layoutY="332.0" prefHeight="43.0" prefWidth="175.0" promptText="在此输入要入队列的值" />
-      <Button fx:id="pop" layoutX="341.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#pop" prefHeight="64.0" prefWidth="116.0" text="pop">
+      <Button fx:id="pop" layoutX="341.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#pop" opacity="0.8" prefHeight="64.0" prefWidth="116.0" text="pop">
          <font>
             <Font size="30.0" />
          </font>
       </Button>
-      <ScrollPane fx:id="scrollPane" layoutX="14.0" layoutY="194.0" prefHeight="101.0" prefWidth="591.0">
+      <ScrollPane fx:id="scrollPane" layoutX="14.0" layoutY="194.0" opacity="0.8" prefHeight="101.0" prefWidth="591.0">
          <content>
-            <HBox fx:id="hBox" prefHeight="74.0" prefWidth="591.0" spacing="5.0" />
+            <HBox fx:id="hBox" opacity="0.8" prefHeight="74.0" prefWidth="591.0" spacing="5.0" />
          </content>
       </ScrollPane>
    </children>

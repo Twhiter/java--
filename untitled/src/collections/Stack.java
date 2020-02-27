@@ -69,7 +69,7 @@ public class Stack<E> implements Collection<E> {
 
     /***
      *
-     * @return
+     * @return 返回迭代器
      */
     @Override
     public Iterator<E> iterator() {

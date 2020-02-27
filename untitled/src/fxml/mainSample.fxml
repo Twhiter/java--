@@ -6,10 +6,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="pane" fx:id="anchorPane" prefHeight="784.0" prefWidth="929.0" stylesheets="@../css/background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+<AnchorPane id="pane" fx:id="anchorPane" prefHeight="784.0" prefWidth="929.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
    <children>
-      <ComboBox fx:id="modeChoose" focusTraversable="false" layoutX="865.0" prefHeight="38.0" prefWidth="115.0" />
-      <MenuBar prefHeight="38.0" prefWidth="868.0">
+      <ComboBox fx:id="modeChoose" focusTraversable="false" layoutX="865.0" opacity="0.8" prefHeight="38.0" prefWidth="115.0" />
+      <MenuBar opacity="0.8" prefHeight="38.0" prefWidth="868.0">
         <menus>
           <Menu mnemonicParsing="false" text="文件">
             <items>

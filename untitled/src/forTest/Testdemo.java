@@ -1,34 +1,21 @@
 package forTest;
 
 import javafx.application.Application;
-import javafx.collections.ListChangeListener;
 import javafx.concurrent.ScheduledService;
 import javafx.concurrent.Task;
-import javafx.event.EventHandler;
-import javafx.scene.Node;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.TreeCell;
-import javafx.scene.control.TreeItem;
-import javafx.scene.control.TreeView;
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundImage;
 import javafx.scene.layout.BackgroundSize;
-import javafx.scene.text.Text;
+import javafx.scene.web.WebEngine;
+import javafx.scene.web.WebView;
 import javafx.stage.Stage;
-import javafx.util.Callback;
-import javafx.util.Duration;
 
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
-import javax.swing.event.DocumentEvent;
-import java.io.*;
-import java.net.URI;
-import java.net.URISyntaxException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.Serializable;
 import java.util.Random;
 
 
@@ -45,50 +32,20 @@ public class Testdemo extends Application implements Serializable {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        TreeView<String> treeView = new TreeView<>();
-
-        TreeItem<String> treeItem = new TreeItem<>("我");
-
-        TreeItem<String> treeItem1 = new TreeItem<>("你");
-        TreeItem<String> treeItem2 = new TreeItem<>("它");
-        TreeItem<String> treeItem3 = new TreeItem<>("他");
-        TreeItem<String> treeItem4 = new TreeItem<>("他");
-
-        treeItem3.getChildren().add(treeItem4);
-
-        treeItem.getChildren().addAll(treeItem1,treeItem2,treeItem3);
-
-        treeItem.setExpanded(true);
-
-        treeView.setRoot(treeItem);
 
 
+        WebView webView = new WebView();
 
-        treeItem.addEventHandler(TreeItem.valueChangedEvent(), new EventHandler<TreeItem.TreeModificationEvent<String>>() {
-            @Override
-            public void handle(TreeItem.TreeModificationEvent<String> event) {
-                System.out.println("changed");
-            }
-        });
+        WebEngine webEngine = webView.getEngine();
 
-        treeItem.setValue("123312");
+        webEngine.load("http://www.baidu.com");
 
-        TreeCell<String> treeCell = new TreeCell<>();
-
-
-
-        treeView.getSelectionModel().getSelectedItems().addListener((ListChangeListener<TreeItem<String>>) c -> {
-            System.out.println(treeView.getRow(c.getList().get(0)));
-
-        });
 
 
 
         AnchorPane anchorPane = new AnchorPane();
 
-        anchorPane.getChildren().add(treeView);
-
-        AnchorPane.setTopAnchor(treeView,100.0);
+        anchorPane.getChildren().add(webView);
 
         Scene scene = new Scene(anchorPane);
 
